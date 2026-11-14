@@ -795,6 +795,10 @@
       lamp('landing', 0.25, 22.7, -1.6, { mirror: true, strength: 0.6, coneOuter: 8, coneInner: 4, tilt: -1.5 }),
       lamp('turnoff', 0.2, 22.7, -2.35, { mirror: true, strength: 1, yaw: 25 }),
     ] },
+      '90': { name: 'EC-135', headlightIntensity: 1.6, lamps: [
+      lamp('landing', 0.77, 1.5, -0.35, { tilt: -1, yaw: 4, mirror: true, strength: 1.5 }),
+      lamp('taxi', 0.77, 1.5, -0.35, { mirror: true, tilt: -1, yaw: 3, coneOuter: 19, coneInner: 10, strength: 0.7 }),
+    ] },
   };
 
   let savedLayouts = loadJSON(AIRCRAFT_KEY) || {};
