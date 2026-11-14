@@ -796,8 +796,8 @@
       lamp('turnoff', 0.2, 22.7, -2.35, { mirror: true, strength: 1, yaw: 25 }),
     ] },
       '9': { name: 'Eurocopter EC135', headlightIntensity: 1.6, lamps: [
-      lamp('landing', 0.77, 1.5, -0.35, { tilt: -15, yaw: 4, mirror: true, strength: 1.5 }),
-      lamp('taxi', 0.77, 1.5, -0.35, { mirror: true, tilt: -1, yaw: 3, coneOuter: 19, coneInner: 10, strength: 0.7 }),
+      lamp('landing', 0.0, 1.5, -0.45, { tilt: -18, yaw: 0, mirror: false, strength: 1.5 }),
+      lamp('taxi', 0.77, 1.5, -0.35, { mirror: true, tilt: -1, yaw: 8, coneOuter: 19, coneInner: 10, strength: 0.7 }),
     ] },
   };
 
